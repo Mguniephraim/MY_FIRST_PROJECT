@@ -1,0 +1,36 @@
+em {
+    color: magenta;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+p:nth-of-type(2) {
+    font-weight: 700;
+    font-style: normal;
+}
+
+#offcanvasNavbarLabel {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+summary {
+    color: hotpink;
+    font-size: 20px;
+}
+
+#foo {
+    font-size: 20px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 200px;
+}
