@@ -40,15 +40,16 @@
                 }
                 
                 .race {
-                    margin-left: 100px;
+                    margin-left:
                 }
                 
                 #tick {
                     display: flex;
+                    justify-content: space-evenly;
                 }
                 
                 .track {
-                    margin-left: 100px;
+                    margin-left:
                 }
                 
                 .trace {
