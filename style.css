@@ -34,3 +34,7 @@ main {
 footer {
     margin-top: 200px;
 }
+
+span img {
+    padding: 10px;
+}
