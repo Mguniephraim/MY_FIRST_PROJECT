@@ -1,40 +1,77 @@
-em {
-    color: magenta;
-    font-family: serif;
-    font-style: italic;
-    font-weight: 700;
-    letter-spacing: 10px;
-    font-size: 30px;
-}
-
-p:nth-of-type(2) {
-    font-weight: 700;
-    font-style: normal;
-}
-
-#offcanvasNavbarLabel {
-    color: red;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-summary {
-    color: hotpink;
-    font-size: 20px;
-}
-
-#foo {
-    font-size: 20px;
-}
-
-main {
-    margin-top: 100px;
-}
-
-footer {
-    margin-top: 200px;
-}
-
-span img {
-    padding: 10px;
-}
+                em {
+                color: magenta;
+                font-family: serif;
+                font-style: italic;
+                font-weight: 700;
+                letter-spacing: 10px;
+                font-size: 30px;
+            }
+            
+            p:nth-of-type(2) {
+                font-weight: 700;
+                font-style: normal;
+            }
+            
+            #offcanvasNavbarLabel {
+                color: red;
+                font-weight: 700;
+                font-size: 20px;
+            }
+            
+            summary {
+                color: hotpink;
+                font-size: 20px;
+            }
+            
+            #foo {
+                font-size: 20px;
+            }
+            
+            main {
+                margin-top: 100px;
+            }
+            
+            footer {
+                margin-top: 200px;
+            }
+            
+            span img {
+                padding: 10px;
+            }
+            
+            .race {
+                margin-left: 100px;
+            }
+            
+            #tick {
+                display: flex;
+            }
+            
+            .track {
+                margin-left: 100px;
+            }
+            
+            .trace {
+                margin-top: 10px;
+            }
+            
+            .list-inline {
+                display: flex;
+            }
+            
+            .fa-facebook {
+                margin-right: 10px;
+            }
+            
+            .fa-linkedin {
+                margin-right: 10px;
+            }
+            
+            .list-inline i:hover {
+                font-size: 50px;
+                color: rgb(211, 24, 24);
+            }
+            
+            .list-inline li {
+                padding: 10px;
+                font-size: 30px;
