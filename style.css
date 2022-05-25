@@ -32,7 +32,7 @@
                 }
                 
                 footer {
-                    margin-top: 200px;
+                    margin-top: 100px;
                 }
                 
                 span img {
@@ -81,11 +81,14 @@
                 .container {
                     padding-top: 30px;
                     padding-bottom: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    flex: 1 2 800px;
                 }
                 
                 .track {
-                    margin-top: 100px;
-                    margin-left: 20px;
+                    margin-top: 50px;
+                    margin-left: 5px;
                 }
                 
                 p {
@@ -101,5 +104,23 @@
                 
                 .photo {
                     padding: 15px;
-                    margin-left: 270px;
+                    margin-left: 150px;
+                }
+                
+                .card-white {
+                    flex-direction:
+                }
+                
+                .side-bar {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-evenly;
+                    justify-content: center;
+                    margin-left: 100px;
+                }
+                
+                @media(min-width:500px) {
+                    body {
+                        background-color: aqua;
+                    }
                 }
