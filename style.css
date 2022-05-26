@@ -1,126 +1,98 @@
-                em {
-                    color: magenta;
-                    font-family: serif;
-                    font-style: italic;
-                    font-weight: 700;
-                    letter-spacing: 10px;
-                    font-size: 30px;
-                }
-                
-                p:nth-of-type(2) {
-                    font-weight: 700;
-                    font-style: normal;
-                }
-                
-                #offcanvasNavbarLabel {
-                    color: red;
-                    font-weight: 700;
-                    font-size: 20px;
-                }
-                
-                summary {
-                    color: hotpink;
-                    font-size: 20px;
-                }
-                
-                #foo {
-                    font-size: 20px;
-                }
-                
-                main {
-                    margin-top: 100px;
-                }
-                
-                footer {
-                    margin-top: 100px;
-                }
-                
-                span img {
-                    padding: 10px;
-                }
-                
-                .race {
-                    margin-left: 100px;
-                }
-                
-                #tick {
-                    display: flex;
-                    justify-content: flex-start;
-                }
-                
-                .track {
-                    margin-left: 100px;
-                }
-                
-                .trace {
-                    margin-top: 10px;
-                }
-                
-                .list-inline {
-                    display: flex;
-                }
-                
-                .fa-facebook {
-                    margin-right: 10px;
-                }
-                
-                .fa-linkedin {
-                    margin-right: 10px;
-                }
-                
-                .list-inline i:hover {
-                    font-size: 40px;
-                    color: rgb(211, 24, 24);
-                }
-                
-                .list-inline li {
-                    padding: 10px;
-                    font-size: 20px;
-                }
-                
-                .container {
-                    padding-top: 30px;
-                    padding-bottom: 50px;
-                    display: flex;
-                    flex-direction: column;
-                    flex: 1 2 800px;
-                }
-                
-                .track {
-                    margin-top: 50px;
-                    margin-left: 5px;
-                }
-                
-                p {
-                    color: hsl(348, 100%, 61%);
-                    font-size: 16px;
-                }
-                
-                #eeh {
-                    color: black;
-                    padding: 10px;
-                    font-weight: 700px;
-                }
-                
-                .photo {
-                    padding: 15px;
-                    margin-left: 150px;
-                }
-                
-                .card-white {
-                    flex-direction:
-                }
-                
-                .side-bar {
-                    display: flex;
-                    flex-direction: column;
-                    align-content: space-evenly;
-                    justify-content: center;
-                    margin-left: 100px;
-                }
-                
-                @media(min-width:500px) {
-                    body {
-                        background-color: aqua;
-                    }
-                }
+    em {
+        color: magenta;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+    
+    p:nth-of-type(2) {
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    #offcanvasNavbarLabel {
+        color: red;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    summary {
+        color: hotpink;
+        font-size: 20px;
+    }
+    
+    #foo {
+        font-size: 20px;
+    }
+    
+    span img {
+        padding: 10px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    
+    .footer div {
+        width: 100%;
+    }
+    
+    .fa-facebook {
+        margin-right: 10px;
+    }
+    
+    .fa-linkedin {
+        margin-right: 10px;
+    }
+    
+    .list-inline {
+        display: flex;
+    }
+    
+    .list-inline i:hover {
+        font-size: 40px;
+        color: rgb(211, 24, 24);
+    }
+    
+    .list-inline li {
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        flex-wrap: wrap;
+        flex-basis: auto;
+    }
+    
+    p {
+        color: hsl(348, 100%, 61%);
+        font-size: 16px;
+    }
+    
+    #eeh {
+        color: black;
+        padding: 10px;
+        font-weight: 700px;
+    }
+    
+    .side-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    @media (max-width:576px) {
+        .title {
+            font-size: 2px;
+        }
+    }
