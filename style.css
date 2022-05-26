@@ -69,7 +69,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 20px;
         flex-wrap: wrap;
         flex-basis: auto;
     }
@@ -85,14 +85,16 @@
         font-weight: 700px;
     }
     
-    .side-bar {
+    .continer-fluid {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin: 20px;
     }
     
-    @media (max-width:576px) {
-        .title {
-            font-size: 2px;
+    @media (max-width: 30em) {
+        .footer {
+            flex-direction: column;
         }
     }
