@@ -1,5 +1,4 @@
 em {
-    color: magenta;
     font-family: serif;
     font-style: italic;
     font-weight: 700;
@@ -7,8 +6,19 @@ em {
     font-size: 30px;
 }
 
-p:nth-of-type(2) {
+.color {
+    color: red;
     font-weight: 700;
+}
+
+p:nth-of-type(1) {
+    font-weight: 400;
+    font-style: normal;
+    font-size: ;
+}
+
+p:nth-of-type(2) {
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -19,11 +29,16 @@ p:nth-of-type(2) {
 }
 
 summary {
-    color: hotpink;
-    font-size: 20px;
+    color: red;
 }
 
 #foo {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.items {
+    letter-spacing: 5px;
     font-size: 20px;
 }
 
@@ -71,8 +86,8 @@ span img {
 }
 
 p {
-    color: hsl(348, 100%, 61%);
-    font-size: 16px;
+    color: hsl(343, 78%, 2%);
+    font-size: 18px;
 }
 
 .paragraph {
@@ -98,8 +113,11 @@ p {
     padding: 20px;
 }
 
-@media (max-width: 30em) {
-    .footer {
-        flex-direction: column;
+@media (min-width:366px) {
+    .title {
+        font-size: 2em;
+    }
+    .subtitle {
+        font-size: 2em;
     }
 }
