@@ -1,100 +1,105 @@
-    em {
-        color: magenta;
-        font-family: serif;
-        font-style: italic;
-        font-weight: 700;
-        letter-spacing: 10px;
-        font-size: 30px;
-    }
-    
-    p:nth-of-type(2) {
-        font-weight: 700;
-        font-style: normal;
-    }
-    
-    #offcanvasNavbarLabel {
-        color: red;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    summary {
-        color: hotpink;
-        font-size: 20px;
-    }
-    
-    #foo {
-        font-size: 20px;
-    }
-    
-    span img {
-        padding: 10px;
-    }
-    
+em {
+    color: magenta;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+p:nth-of-type(2) {
+    font-weight: 700;
+    font-style: normal;
+}
+
+#offcanvasNavbarLabel {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+summary {
+    color: hotpink;
+    font-size: 20px;
+}
+
+#foo {
+    font-size: 20px;
+}
+
+span img {
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.fa-facebook {
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    margin-right: 10px;
+}
+
+.list-inline {
+    display: flex;
+}
+
+.list-inline i:hover {
+    font-size: 40px;
+    color: rgb(211, 24, 24);
+}
+
+.list-inline li {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+p {
+    color: hsl(348, 100%, 61%);
+    font-size: 16px;
+}
+
+.paragraph {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.green {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.black {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.white {
+    padding: 20px;
+}
+
+.grey {
+    padding: 20px;
+}
+
+@media (max-width: 30em) {
     .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 50px;
-    }
-    
-    .footer div {
-        width: 100%;
-    }
-    
-    .fa-facebook {
-        margin-right: 10px;
-    }
-    
-    .fa-linkedin {
-        margin-right: 10px;
-    }
-    
-    .list-inline {
-        display: flex;
-    }
-    
-    .list-inline i:hover {
-        font-size: 40px;
-        color: rgb(211, 24, 24);
-    }
-    
-    .list-inline li {
-        padding: 10px;
-        font-size: 20px;
-        display: flex;
-    }
-    
-    .container {
-        padding: 20px;
-        display: flex;
         flex-direction: column;
-        margin: 20px;
-        flex-wrap: wrap;
-        flex-basis: auto;
     }
-    
-    p {
-        color: hsl(348, 100%, 61%);
-        font-size: 16px;
-    }
-    
-    #eeh {
-        color: black;
-        padding: 10px;
-        font-weight: 700px;
-    }
-    
-    .continer-fluid {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 20px;
-        margin: 20px;
-    }
-    
-    @media (max-width: 30em) {
-        .footer {
-            flex-direction: column;
-        }
-    }
+}
