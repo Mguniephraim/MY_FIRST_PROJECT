@@ -118,9 +118,9 @@ p {
     padding: 20px;
 }
 
-@media (min-width:375px) {
+@media (min-width:360px) {
     .adjust {
-        font-size: 16px;
+        font-size: 15px !important;
     }
     .title {
         font-size: 20px !important;
