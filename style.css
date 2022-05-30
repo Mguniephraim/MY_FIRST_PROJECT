@@ -70,12 +70,13 @@ span img {
 
 .container {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     margin: 20px;
     flex-wrap: wrap;
     flex-basis: auto;
     overflow: hidden;
+    height: 95vh;
+    justify-items: center;
 }
 
 p {
