@@ -112,24 +112,6 @@ p {
     padding: 20px;
 }
 
-.p_title {
-    background: white;
-    padding: 5px;
-    color: red;
-}
-
-.title {
-    background: green;
-}
-
-.s_title {
-    background: white;
-    padding: 2px;
-    color: blue;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
 .logo_title {
     background: white;
     color: red;
