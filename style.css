@@ -79,9 +79,14 @@ span img {
     justify-items: center;
 }
 
+body {
+    background: #ffd6ff;
+}
+
 p {
-    color: hsl(343, 78%, 2%);
-    font-size: 18px;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.6em;
 }
 
 h2::first-letter {
@@ -125,7 +130,7 @@ h2::first-letter {
 .logo_title {
     background: white;
     color: red;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 2rem;
     letter-spacing: 5px;
 }
