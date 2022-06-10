@@ -88,6 +88,8 @@ span img {
 
 body {
     background: #ffedd8;
+    background-attachment: scroll;
+    white-space-collapse: break-all;
 }
 
 p {
@@ -111,6 +113,8 @@ h2::first-letter {
     line-height: 1.6em;
     font-family: sans-serif;
     text-align: left;
+    white-space-collapse: normal;
+    word-wrap: suppress;
 }
 
 .green {
