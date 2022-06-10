@@ -84,12 +84,16 @@ span img {
     justify-items: center;
     orientation: landscape;
     transform-style: preserve-3d;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+    overflow: hidden;
 }
 
 body {
     background: #ffedd8;
     background-attachment: scroll;
-    white-space-collapse: break-all;
+    background-clip: border-box;
+    flex: 1 1 auto;
+    box-sizing: border-box;
 }
 
 p {
@@ -113,7 +117,6 @@ h2::first-letter {
     line-height: 1.6em;
     font-family: sans-serif;
     text-align: left;
-    white-space-collapse: normal;
     word-wrap: suppress;
 }
 
