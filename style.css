@@ -82,6 +82,8 @@ span img {
     overflow: hidden;
     height: 95vh;
     justify-items: center;
+    orientation: landscape;
+    transform-style: preserve-3d;
 }
 
 body {
@@ -107,6 +109,7 @@ h2::first-letter {
     padding: 10px;
     margin-top: 5px;
     line-height: 1.6em;
+    font-family: auto;
 }
 
 .green {
