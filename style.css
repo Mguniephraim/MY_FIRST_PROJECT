@@ -45,6 +45,10 @@ span img {
     margin-top: 50px;
 }
 
+i {
+    color: black;
+}
+
 .fa-facebook {
     margin-right: 10px;
 }
@@ -91,7 +95,6 @@ span img {
 body {
     background: #ffedd8;
     background-attachment: scroll;
-    background-clip: border-box;
     flex: 1 1 auto;
     box-sizing: border-box;
 }
