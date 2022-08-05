@@ -45,10 +45,6 @@ span img {
     margin-top: 50px;
 }
 
-i {
-    color: black;
-}
-
 .fa-facebook {
     margin-right: 10px;
 }
@@ -168,6 +164,10 @@ h2::first-letter {
 .paragraph {
     color: white;
     font-size: 18px;
+}
+
+i {
+    color: #FF1E00;
 }
 
 @media (min-width:360px) {
